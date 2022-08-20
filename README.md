@@ -11,7 +11,7 @@ All of these can run on the postmarketOS (https://postmarketos.org/) and in fact
 
 I want to be able to modify them and cross-compile and run on a device running the postmarketOS base version without any UI installed.
 
-### Assumtions:
+### Assumtions
 1. There is a machine with a fresh ubuntu installation
 2. There is a modile device running postmarketOS with the none/console UI as shown here: https://wiki.postmarketos.org/wiki/Category:Interface
 
@@ -40,4 +40,5 @@ The task is to create an MD file with a step by step instructions, describing:
    >   make install
    > ```
    
-3. ---- ...
+3. Detailed description on how to cross-compile each of the apps (asteroid-launcher, glacier-home, lipstick-example-home) and how to deploy and run them on the mobile device running the postmarketOS.
+
