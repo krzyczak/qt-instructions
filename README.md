@@ -44,3 +44,5 @@ The task is to create an MD file with a step by step instructions, describing:
 ### End result
 In the end I would like to be able to start a fresh ubuntu machine, follow the instructions created and then clone each of the tree mentioned repositories, compile and run them.
 
+---------------------
+The task is started in the [INSTRUCTIONS.md](https://github.com/krzyczak/qt-instructions/blob/master/INSTRUCTIONS.md) file which you can start with.
