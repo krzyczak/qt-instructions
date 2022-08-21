@@ -13,11 +13,13 @@ All of these can run on the postmarketOS (https://postmarketos.org/) and in fact
 
 I want to be able to modify them, compile and run to test the changes.
 
-### Assumtion
+### Assumtions
 1. There is a machine with a fresh ubuntu installation
+2. There is a mobile device running the [postmarketOS](https://postmarketos.org/) (Alpine based linux distro for mobile devices).
 
 ### Task
 The task is to create an MD file with a step by step instructions, describing:
+
 1. Which packages need to be installed on ubuntu with detailed description on how to install them.
 
    For examlple if a `build-essential` or `cmake` package is required the MD file should say:
@@ -41,8 +43,10 @@ The task is to create an MD file with a step by step instructions, describing:
    >   make install
    > ```
    
+3. How to cross-compile these to be able to run on the postmarketOS and deploy
+   
 ### End result
-In the end I would like to be able to start a fresh ubuntu machine, follow the instructions created and then clone each of the tree mentioned repositories, compile and run them.
+In the end I would like to be able to start a fresh ubuntu machine, follow the instructions created and then clone each of the tree mentioned repositories, compile and run them, as well as cross-compile them and deploy to the mobile device and run them on the postmarketOS.
 
 ---------------------
-The task is started in the [INSTRUCTIONS.md](https://github.com/krzyczak/qt-instructions/blob/master/INSTRUCTIONS.md) file which you can start with.
+The work is started in the [INSTRUCTIONS.md](https://github.com/krzyczak/qt-instructions/blob/master/INSTRUCTIONS.md) file, which can serve as a starting point.
